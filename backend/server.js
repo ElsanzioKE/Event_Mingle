@@ -7,6 +7,10 @@ const { errorHandler } = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
 const PORT = process.env.PORT || 5000
 
+const mongoose = require('mongoose');
+const uri = 'mongodb://localhost:27017/event_mingle';
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
 // Connect to database
 connectDB()
 
