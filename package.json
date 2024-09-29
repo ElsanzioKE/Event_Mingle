@@ -2,16 +2,19 @@
 {
     "name": "mern-ticket-konser",
     "version": "1.0.0",
-    "description": "TiKons ticket app",
+    "description": "Event_Mingle App",
     "main": "server.js",
     "scripts": {
       "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+      "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
       "server": "nodemon backend/server.js",
       "client": "npm start --prefix frontend",
-      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "dev": "concurrently \"npm run server\" \"NODE_OPTIONS=--openssl-legacy-provider npm start --prefix frontend\"",
       "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
     },
-    "author": "Gilbert Hutapea",
+    "author": "Cox101",
     "license": "MIT",
     "dependencies": {
       "bcryptjs": "^2.4.3",
