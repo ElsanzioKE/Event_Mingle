@@ -1,6 +1,6 @@
 {
-    "name": "frontend-mern-ticket-konser",
-    "version": "0.1.0",
+    "name": "event_mingle",
+    "version": "1.0.0",
     "proxy": "https://Event_Mingle-api.vercel.app/",
     "private": true,
     "dependencies": {

@@ -1,6 +1,6 @@
 
 {
-    "name": "mern-ticket-konser",
+    "name": "event_mingle",
     "version": "1.0.0",
     "description": "Event_Mingle App",
     "main": "server.js",
