@@ -151,7 +151,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center my-6">
               <MdEmail className="text-3xl mr-8 text-primary cursor-pointer duration-300"></MdEmail>
-              <h3 className="font-medium text-primary">info@Event_Mingle.com</h3>
+              <h3 className="font-medium text-primary">info@event_mingle.com</h3>
             </div>
             <div className="flex items-center my-6">
               <FaLocationArrow className="text-2xl mr-8 text-primary cursor-pointer duration-300"></FaLocationArrow>
